@@ -9,8 +9,6 @@ class JoinApp extends StatefulWidget {
   _JoinAppState createState() => _JoinAppState();
 }
 
-
-
 class _JoinAppState extends State<JoinApp> with SingleTickerProviderStateMixin{
 
   TabController _tabController;
@@ -65,8 +63,6 @@ class _JoinAppState extends State<JoinApp> with SingleTickerProviderStateMixin{
           RegisterScreen(),
         ],
       ),
-
-
     );
   }
 }
